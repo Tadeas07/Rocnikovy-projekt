@@ -48,10 +48,10 @@
 > ![Před čištěním](<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/6e7addd1-7f94-4bc4-8393-784f7d605935" />
 )
  ##  PC po vyčištění
-> ![po čištění](<img width="2448" height="3264" alt="image" src="https://github.com/user-attachments/assets/6443303f-f889-43d4-aaa5-6011cb042356" />
+> ![po čištění](<img width="1000" height="1900" alt="image" src="https://github.com/user-attachments/assets/6443303f-f889-43d4-aaa5-6011cb042356" />
 )
 ##  původní Ram
-![původní Ram] (<img width="2448" height="3264" alt="image" src="https://github.com/user-attachments/assets/ddbbba2b-b205-42a7-bcab-b665c189c8c1" />)
+![původní Ram] (<img width="1000" height="1900" alt="image" src="https://github.com/user-attachments/assets/ddbbba2b-b205-42a7-bcab-b665c189c8c1" />)
 ##  nová Ram
  
 ## Závěr
