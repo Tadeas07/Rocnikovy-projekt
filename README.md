@@ -50,7 +50,8 @@
  ##  PC po vyčištění
 > ![po čištění](<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/6443303f-f889-43d4-aaa5-6011cb042356" />
 )
-##  původní Ram (<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/ddbbba2b-b205-42a7-bcab-b665c189c8c1" />)
+##  původní Ram 
+> (<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/ddbbba2b-b205-42a7-bcab-b665c189c8c1" />)
 ##  nová Ram
  
 ## Závěr
