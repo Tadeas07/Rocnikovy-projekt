@@ -1,59 +1,63 @@
 
 # Ročníkový projekt: Upgrade RAM a údržba PC sestavy
  
-Tento repozitář slouží jako dokumentace k ročníkovému projektu. Cílem práce byla modernizace hardwaru (rozšíření operační paměti) a celková profylaxe (čištění) počítačové skříně pro zlepšení chladícího výkonu a stability systému.
- 
-## 📋 Specifikace Hardware
+## Specifikace Hardwaru
  
 | Komponenta | Původní stav | Nový stav (Upgrade) |
 | :--- | :--- | :--- |
-| **RAM** | [2* 4gb Ram DDR3 1600MHz ] | [2 * 4gb Ram DDR3 1500MHz ] |
-| **Základní deska** | [Doplnit model, např. ASUS Prime B450] | - |
-| **Procesor** | [Doplnit model, např. AMD Ryzen 5 3600] | - |
-| **Skříň** | [Doplnit typ skříně] | Vyčištěna |
+| **RAM** | [1* 4gb Ram DDR3] | [2* 4gb Ram DDR3 1600MHz + 2* 4gb Ram DDR3 1500Mhz] |
+| **Procesor** | [AMD PRO A8-8650 R7] | - |
+| **Skříň** | [Tower] | Vyčištěna |
  
-## 🛠️ Použité nářadí a pomůcky
-* Křížový šroubovák (velikost PH2)
+## Použité nářadí a pomůcky
+* skříň je odklápěcí
 * Stlačený vzduch (pro vyfoukání prachu)
-* Antistatický náramek (nebo uzemnění o topení)
-* Isopropylalkohol a hadřík z mikrovlákna (na povrchy)
+* šroubovák na oddělání větráku
+* hadřík 
  
-## 🚀 Postup práce
+##  Postup práce
  
 ### 1. Bezpečnost a příprava
-* Počítač byl vypnut a odpojen od elektrické sítě.
-* Provedl jsem vybití zbytkového napětí stisknutím tlačítka zapnutí po dobu 10 sekund.
-* Zajistil jsem uzemnění proti statické elektřině.
+* Nejdříve jsem Pc odpojil z napájení a poté odpojil zbylé kabely jako Ethernet a hardware
+* Pc jsem si dal na pracovní plochu
+* Odklopil jsem poklop
  
-### 2. Čištění skříně (Profylaxe)
-* Demontáž bočnic skříně.
-* Vyfoukání prachových filtrů a žeber chladiče procesoru stlačeným vzduchem.
-* Očištění lopatek ventilátorů (přidržení ventilátoru, aby se neroztočil proudem vzduchu).
-* Odstranění prachu ze dna skříně a zdroje.
+### 2. Čištění skříně 
+* Vyčistil jsem pc opatrně hadříkem a vyfoukal prach na povrchu
+* poté jsem odmontoval větráček a vyčistil ventilátory
+* Odstranil jsem prach ze dna skříně a zdroje.
  
 ### 3. Výměna operační paměti (RAM)
-* Uvolnění pojistek na slotech DIMM.
-* Vyjmutí starých modulů.
-* Instalace nových modulů do slotů [např. A2 a B2 pro Dual Channel].
-* Kontrola správného docvaknutí pojistek.
+* Uvolnil jsem pojistky na slotech DIMM.
+* Vyjmul jsem starou Ram
+* Instaloval jsem nové Ram a pořádně zacvakl (ze začátku mi to moc nešlo ale nakonec se vešly)
+* Zkontroloval jsem zda drží
  
 ### 4. Testování a ověření
-* Zapojení PC a spuštění.
-* Kontrola v BIOSu/UEFI: Systém správně detekoval [Doplnit kapacitu, např. 16 GB].
-* Nastavení XMP profilu pro využití plné frekvence pamětí.
-* Boot do Windows a kontrola stability (Task Manager).
+* vrátil jsem větrák
+* uzavřel jsem skříň a připojil kabely zpět do PC
+* Kontrola v BIOSu/UEFI: Systém správně detekoval změnu Ram
+* Zapl jsem správce úloh a zkontroloval zda tam opravdu mám 16gb Ram
+* 16gb Ram tam bylo, ale systém si z nich bral 10gb což mi bylo divné a zeptal jsem se AI
+* Bylo to tím, že jsem původně chtěl udělat Dual Channel, ale díky rozdílnému napětí to nebylo možné takže jsem musel vlézt zpět do skříně a ramky stejného napětí dát vedle sebe
+* Tento způsob fungoval a můj PC má nyní 16gb Ram
+  
  
-## 📸 Fotodokumentace
-> *Zde bude fotka před čištěním (zaprášený PC)*
-> ![Před čištěním](cesta/k/fotce_pred.jpg)
+##  PC před vyčištěním
+
+> ![Před čištěním](<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/6e7addd1-7f94-4bc4-8393-784f7d605935" />
+)
+ ##  PC po vyčištění
+> ![po čištění](<img width="2448" height="3264" alt="image" src="https://github.com/user-attachments/assets/6443303f-f889-43d4-aaa5-6011cb042356" />
+)
+##  původní Ram
+![původní Ram] (<img width="2448" height="3264" alt="image" src="https://github.com/user-attachments/assets/ddbbba2b-b205-42a7-bcab-b665c189c8c1" />)
+##  nová Ram
  
-> *Zde bude fotka po výměně RAM a vyčištění*
-> ![Po výměně](cesta/k/fotce_po.jpg)
- 
-## ✅ Závěr
+## Závěr
 Výměna proběhla úspěšně. Počítač je nyní tišší díky odstranění prachu z ventilátorů a systém reaguje rychleji díky navýšení kapacity RAM.
  
 ---
-*Autor: [Tvé Jméno]*
-*Datum: [Datum]*
+*Autor: [Šmehlík Tadeáš]*
+*Datum: [7.12]*
  
