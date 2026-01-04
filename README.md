@@ -39,7 +39,7 @@
 * Kontrola v BIOSu/UEFI: Systém správně detekoval změnu Ram
 * Zapl jsem správce úloh a zkontroloval zda tam opravdu mám 16gb Ram
 * 16gb Ram tam bylo, ale systém si z nich bral 10gb což mi bylo divné a zeptal jsem se AI
-* Bylo to tím, že jsem původně chtěl udělat Dual Channel, ale díky rozdílnému napětí to nebylo možné takže jsem musel vlézt zpět do skříně a ramky stejného napětí dát vedle sebe
+* Bylo to tím, že jsem původně chtěl udělat Dual Channel, ale díky rozdílnému napětí to nebylo možné, takže jsem musel vlézt zpět do skříně a ramky stejného napětí dát vedle sebe
 * Tento způsob fungoval a můj PC má nyní 16gb Ram
   
  
@@ -58,6 +58,7 @@
 Výměna proběhla úspěšně. Počítač je nyní tišší díky odstranění prachu z ventilátorů a systém reaguje rychleji díky navýšení kapacity RAM.
  
 ---
+*Zdrojové video: [https://youtu.be/c0SSqD4lLgA?si=WMPN4YCtxQoU3AJc]
 *Autor: [Šmehlík Tadeáš]*
 *Datum: [7.12]*
  
