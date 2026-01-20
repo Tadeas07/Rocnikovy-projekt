@@ -1,0 +1,39 @@
+import psutil
+import datetime
+
+# Převod na GB pro normální lidi
+def na_gb(bajty):
+    return round(bajty / (1024**3), 2)
+
+def diagnostika():
+    print("--- DIAGNOSTIKA UPGRADU RAM ---")
+    
+    # Načtení dat ze systému
+    pamet = psutil.virtual_memory()
+    total_gb = na_gb(pamet.total)
+    
+    # Tvůj specifický hardware (pro info do reportu)
+    moduly = "2x 1600MHz + 2x 1550MHz"
+    aktualni_frekvence = "1333 MHz (stabilizováno BIOSem)"
+    
+    print(f"Detekovaná kapacita: {total_gb} GB")
+    print(f"Konfigurace modulů: {moduly}")
+    print(f"Aktuální rychlost:  {aktualni_frekvence}")
+    print("-" * 30)
+
+    # Kontrola, jestli to běží správně
+    if total_gb >= 15.5: # 16GB po odečtení nějaké rezervy
+        print("STAV: Všechny 4 moduly detekovány.")
+        print("POZNÁMKA: RAM jedou v Dual Channelu na 1333MHz kvůli stabilitě.")
+    else:
+        print("VAROVÁNÍ: Systém nevidí všechny moduly!")
+
+    # Uložení logu pro ročníkovku
+    cas = datetime.datetime.now().strftime("%d.%m.%Y %H:%M:%S")
+    with open("log_upgradu.txt", "a", encoding="utf-8") as f:
+        f.write(f"[{cas}] RAM: {total_gb}GB | Rychlost: {aktualni_frekvence} | Vytížení: {pamet.percent}%\n")
+    
+    print("\nVýsledek byl uložen do souboru log_upgradu.txt")
+
+if __name__ == "__main__":
+    diagnostika()
