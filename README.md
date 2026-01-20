@@ -81,3 +81,10 @@ V druhém pololetí chci ještě zkusit přetaktovat procesor, když mám teď l
 * Alza.cz: *Jak vybrat operační paměť RAM*
 * YouTube kanál *Linus Tech Tips*: Guide to PC cleaning
 * Dokumentace knihovny *psutil* pro Python
+
+##Citace:
+* How To Install Ram - Step By Step Installation Guide (SUPER EASY) https://youtu.be/tv2ZWRePx5U?si=ECzq3Yhy0rweapMa
+*1024 tutoriálů: #0004 Výměna/přidání RAM pamětí https://youtu.be/c0SSqD4lLgA?si=LD4QR8mdR_WqL5CT
+*Jak vyčistit počítač? Moje oblíbené tipy. https://youtu.be/SIzVZHXeZzI?si=BtyZEFVihCOAaV2S
+* BIOS - Jak a co nastavit? https://youtu.be/o6aZnWuBgNc?si=AFimnN77LamVOWKE
+*https://gemini.google.com/app
