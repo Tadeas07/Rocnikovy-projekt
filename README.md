@@ -50,7 +50,7 @@ Počítač jsem odpojil ze sítě a podržel zapínací tlačítko, abych vybil 
 Původní 4GB Ram DDR3 1500 MHz jsem vyndal. Nové (2x 4GB DDR3 1600 MHz) + (2x 4GB DDR3 1550 MHz) jsem zacvakl do slotů DIMM_A2 a DIMM_B2. Musí být slyšet jasné cvaknutí, jinak tam paměť nesedí správně.
 
 ### 3.3 BIOS
-Po prvním spuštění běžely paměti jen na základních 2400 MHz. Musel jsem jít do BIOSu a zapnout **XMP Profile 1**, čímž se frekvence zvedla na 3200 MHz a upravilo se časování.
+Po prvním spuštění běžely paměti jen na základních 1333 MHz. Musel jsem jít do BIOSu a zapnout **XMP Profile 1**, čímž se frekvence zvedla na 1550 MHz a upravilo se časování.
 
 ### 3.4 Komplikace s Dual Channel zapojením
 Při osazování všech čtyř slotů (2x 1600MHz a 2x 1550MHz) nastala komplikace. Po prvním zapnutí mi systém ukazoval použitelných 6,3 GB
