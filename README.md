@@ -76,7 +76,6 @@ V druhém pololetí chci ještě zkusit přetaktovat procesor, když mám teď l
 
 ## Zdroje
 * Alza.cz: *Jak vybrat operační paměť RAM*
-* YouTube kanál *Linus Tech Tips*: Guide to PC cleaning
 * Dokumentace knihovny *psutil* pro Python
 
 ## Citace
