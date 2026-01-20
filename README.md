@@ -52,6 +52,15 @@ Původní 4GB Ram DDR3 1500 MHz jsem vyndal. Nové (2x 4GB DDR3 1600 MHz) + (2x 
 ### 3.3 BIOS
 Po prvním spuštění běžely paměti jen na základních 2400 MHz. Musel jsem jít do BIOSu a zapnout **XMP Profile 1**, čímž se frekvence zvedla na 3200 MHz a upravilo se časování.
 
+### 3.4 Komplikace s Dual Channel zapojením
+Při osazování všech čtyř slotů (2x 1600MHz a 2x 1550MHz) nastala komplikace. Po prvním zapnutí mi systém ukazoval použitelných 6,3 GB
+
+**Problém:** Po diskuzi s chatbotem jsem zjistil že problém dělají rozdílné MHz obou druhů Ram
+
+**Řešení:**
+1. Musel jsem moduly v paticích přeházet tak, aby v 1. a druhém slotu byly stejné druhy Ram a v 3. a 4. také stejné druhy
+2. V BIOSu jsem musel ručně "podtaktovat" (Underclock) celé rozhraní na jednotnou frekvenci 1550 MHz
+
 ## 4. Softwarová část — Můj skript
 
 Abych nemusel spoléhat jen na Správce úloh ve Windows, napsal jsem si v Pythonu skript `ram_monitor.py`. Používá knihovnu `psutil`.
@@ -63,7 +72,7 @@ Díky tomu mám přesný důkaz, jak na tom PC byl před výměnou a jak je na t
 
 Aktuálně mám hotovou hardwarovou část i software pro měření.
 * **Výměna:** Úspěšná, systém ukazuje 14,8 GB použitelné paměti.
-* **Čištění:** Teploty grafiky klesly v zátěži o cca 5 °C. Počítač už nehučí jako startující letadlo.
+* **Čištění:** Teploty grafiky klesly v zátěži o cca 5 °C. Počítač už nehučí.
 
 
 V druhém pololetí chci ještě zkusit přetaktovat procesor, když mám teď lepší teploty, a dodělat hezčí grafy z naměřených dat v Excelu.
