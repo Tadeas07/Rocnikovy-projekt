@@ -37,9 +37,6 @@ Důležité je zapojení **Dual Channel**. To znamená, že když osadíme dva m
 ### 2.2 Chlazení a prach
 Prach je nepřítel elektroniky. Funguje jako izolant – teplo se drží na chladiči a ventilátor ho nedokáže odfouknout. Komponenty se pak přehřívají a snižují výkon (thermal throttling), aby se nepoškodily. Čistý počítač = tichý a výkonný počítač.
 
-### 2.3 Statická elektřina (ESD)
-Než sáhnu na komponenty, musím se "uzemnit" (např. sáhnout na topení nebo nenalakovanou část skříně). Statická elektřina by mohla odpálit citlivé čipy na pamětech nebo desce.
-
 ## 3. Realizace (Hardware)
 
 ### 3.1 Čištění
