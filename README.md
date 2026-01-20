@@ -1,9 +1,9 @@
 # Ročníková práce: Hardwarový upgrade a údržba PC
 
-**Autor:** * Šmehlík Tadeáš
-**Třída:** * T3A 
-**Školní rok:** * 2025/2026  
-**Téma:** * Výměna operační paměti RAM a čištění chladicího systému
+**Autor:** Šmehlík Tadeáš
+**Třída:** T3A 
+**Školní rok:** 2025/2026  
+**Téma:** Výměna operační paměti RAM a čištění chladicího systému
 
 ## Úvod
 
